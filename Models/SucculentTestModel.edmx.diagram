@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="650d53f4d54140599cbe388bf622b18b" Name="Diagram1">
+        <EntityTypeShape EntityType="SucculentTestModel.Activity" Width="1.5" PointX="6" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.ActivityCategory" Width="1.5" PointX="3.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Address" Width="1.5" PointX="3" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Adopt" Width="1.5" PointX="7.5" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.AdoptResult" Width="1.5" PointX="8.25" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Attendance" Width="1.5" PointX="11.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.CharitableResult" Width="1.5" PointX="8.25" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Collection" Width="1.5" PointX="6" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Donate" Width="1.5" PointX="3" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Entries" Width="1.5" PointX="8.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Farms" Width="1.5" PointX="3" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Goods" Width="1.5" PointX="5.25" PointY="54.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.GoodsComments" Width="1.5" PointX="7.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Level" Width="1.5" PointX="6.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.OrderItems" Width="1.5" PointX="7.5" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Orders" Width="1.5" PointX="3" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.PostComments" Width="1.5" PointX="6" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Posts" Width="1.5" PointX="3" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Pots" Width="1.5" PointX="9" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.ReplyGoods" Width="1.5" PointX="10.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.ReplyPost" Width="1.5" PointX="11.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Sections" Width="1.5" PointX="0.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.ShoppingCarts" Width="1.5" PointX="10.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Shops" Width="1.5" PointX="3" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Succulent" Width="1.5" PointX="3.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.SucculentCategory" Width="1.5" PointX="1.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SucculentTestModel.Users" Width="1.5" PointX="0.75" PointY="23.5" IsExpanded="true" />
+        <AssociationConnector Association="SucculentTestModel.FK_Activity_ActivityCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Activity_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_AdoptResult_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Attendance_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_CharitableResult_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Entries_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Address_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Adopt_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_AdoptResult_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_AdoptResult_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Attendance_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Collection_Succulent" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Collection_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Donate_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Entries_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Farms_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Goods_Shops" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_GoodsComments_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_OrderItems_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_ShoppingCarts_Goods" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_GoodsComments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_ReplyGoods_GoodsComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Pots_Level" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_PostComments_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_PostComments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_ReplyPost_PostComments" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Posts_Sections" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Posts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Pots_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_ReplyGoods_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_ReplyPost_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_ShoppingCarts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Shops_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SucculentTestModel.FK_Succulent_SucculentCategory" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
