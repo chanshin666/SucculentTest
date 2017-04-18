@@ -9,5 +9,7 @@ namespace DAL
     class Class1
     {
         chaengnkadjfklajsdlnglkasdgklnaklgnlk ;;;;;;
+        
+            哈哈哈哈哈 
     }
 }
