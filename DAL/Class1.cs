@@ -8,11 +8,6 @@ namespace DAL
 {
     class Class1
     {
-        chaengnkadjfklajsdlnglkasdgklnaklgnlk ;;;;;;
-            举报报告
-        这是增加的内容
-            333333333
-
-            22222222222
+        
     }
 }
